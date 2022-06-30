@@ -1,5 +1,5 @@
 public class Bus extends Car{
-    public Bus(String name, String status, int num, int speed, int fuel,int customer,int maxcustomer) {
+    public Bus(String name, String status, String num, int speed, int fuel,int customer,int maxcustomer) {
          super(name, status, num, speed, fuel,customer,maxcustomer);
     }
     public void printStart(){
